@@ -1,6 +1,6 @@
-# tinyXMPP
+# TinyXMPP
 
-tinyXMPP is a small XMPP client for Python applications. It allows developer to easily connect to XMPP servers and exchange messages in a fast and secure way.
+TinyXMPP is a small XMPP client for Python applications. It allows developers to easily connect to XMPP servers and exchange messages in a fast and secure way.
 
 ## Getting Started
 
@@ -37,9 +37,14 @@ loop.create_task(main())
 loop.run_forever()
 
 ```
-
 ## License
 
-This project is made available under the Apache 2.0 License.
+TinyXMPP is made available under the Apache 2.0 license.
 
-## Contruibu
+## Development
+
+You can follow the development of TinyXMPP on [GitHub](https://github.com/stan-janssen/tinysasl).
+
+## Contributing
+
+To contribute to TinyXMPP, please open an issue on our [GitHub issue tracker](https://github.com/stan-janssen/tinysasl/issues) and/or leave a Pull Request. Thanks!
