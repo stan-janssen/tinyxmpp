@@ -84,7 +84,7 @@ class XMPPClient:
 
         self.ping_interval = ping_interval
         self.server_addr = host
-        self.server_port = port or 5223 if ssl else 5222
+        self.server_port = port or (5223 if ssl else 5222)
         self.ssl = ssl
         await self._connect()
 
